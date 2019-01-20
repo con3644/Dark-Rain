@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="GameXML.SpriteMap">
+    <TextureList>
+      <Item>
+        <Name>sittingRight1</Name>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>96</Width>
+        <Height>96</Height>
+      </Item>
+    </TextureList>
+  </Asset>
+</XnaContent>

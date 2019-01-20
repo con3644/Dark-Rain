@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="GameXML.SpriteMap">
+    <TextureList>
+      <Item>
+        <Name>projectileImpact1</Name>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>32</Width>
+        <Height>32</Height>
+      </Item>
+      <Item>
+        <Name>projectileImpact2</Name>
+        <X>0</X>
+        <Y>33</Y>
+        <Width>32</Width>
+        <Height>32</Height>
+      </Item>
+      <Item>
+        <Name>projectileImpact3</Name>
+        <X>33</X>
+        <Y>0</Y>
+        <Width>32</Width>
+        <Height>32</Height>
+      </Item>
+    </TextureList>
+  </Asset>
+</XnaContent>

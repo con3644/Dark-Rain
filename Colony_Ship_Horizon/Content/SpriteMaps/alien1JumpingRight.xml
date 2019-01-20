@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="GameXML.SpriteMap">
+    <TextureList>
+      <Item>
+        <Name>alienJumpingRight2</Name>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>64</Width>
+        <Height>64</Height>
+      </Item>
+      <Item>
+        <Name>alienJumpingRight3</Name>
+        <X>0</X>
+        <Y>65</Y>
+        <Width>64</Width>
+        <Height>64</Height>
+      </Item>
+      <Item>
+        <Name>alienJumpingRight4</Name>
+        <X>65</X>
+        <Y>0</Y>
+        <Width>64</Width>
+        <Height>64</Height>
+      </Item>
+      <Item>
+        <Name>alienJumpingRight1</Name>
+        <X>65</X>
+        <Y>65</Y>
+        <Width>64</Width>
+        <Height>64</Height>
+      </Item>
+    </TextureList>
+  </Asset>
+</XnaContent>

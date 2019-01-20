@@ -1,0 +1,24 @@
+<VirtualHost *:80>
+  ServerName example.org
+  ServerAdmin web-admin@example.org
+  ServerAlias www.example.org
+  DocumentRoot /srv/www/example.org/public_html
+  ErrorLog /srv/www/example.org/logs/error.log
+  CustomLog /srv/www/example.org/logs/access.log combined
+
+  MonoServerPath example.org "/usr/bin/mod-mono-server2"
+  MonoDebug example.org true
+  MonoSetEnv example.org MONO_IOMAP=all
+  MonoApplications example.org "/:/srv/www/example.org/public_html"
+  <Location "/">
+    Allow from all
+    Order allow,deny
+    MonoSetServerAlias example.org
+    SetHandler mono
+    SetOutputFilter DEFLATE
+    SetEnvIfNoCase Request_URI "\.(?:gif|jpe?g|png)$" no-gzip dont-vary
+  </Location>
+  <IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/javascript
+  </IfModule>
+</VirtualHost>

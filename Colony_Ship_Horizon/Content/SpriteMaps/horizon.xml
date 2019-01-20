@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="GameXML.SpriteMap">
+    <TextureList>
+      <Item>
+        <Name>4</Name>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>256</Width>
+        <Height>256</Height>
+      </Item>
+      <Item>
+        <Name>1</Name>
+        <X>0</X>
+        <Y>257</Y>
+        <Width>256</Width>
+        <Height>256</Height>
+      </Item>
+      <Item>
+        <Name>2</Name>
+        <X>257</X>
+        <Y>0</Y>
+        <Width>256</Width>
+        <Height>256</Height>
+      </Item>
+      <Item>
+        <Name>3</Name>
+        <X>257</X>
+        <Y>257</Y>
+        <Width>256</Width>
+        <Height>256</Height>
+      </Item>
+    </TextureList>
+  </Asset>
+</XnaContent>

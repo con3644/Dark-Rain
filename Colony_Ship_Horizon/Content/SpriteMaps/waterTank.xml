@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="GameXML.SpriteMap">
+    <TextureList>
+      <Item>
+        <Name>waterTank1</Name>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>112</Width>
+        <Height>112</Height>
+      </Item>
+      <Item>
+        <Name>waterTank2</Name>
+        <X>0</X>
+        <Y>113</Y>
+        <Width>112</Width>
+        <Height>112</Height>
+      </Item>
+      <Item>
+        <Name>waterTank4</Name>
+        <X>113</X>
+        <Y>0</Y>
+        <Width>112</Width>
+        <Height>112</Height>
+      </Item>
+      <Item>
+        <Name>waterTank3</Name>
+        <X>113</X>
+        <Y>113</Y>
+        <Width>112</Width>
+        <Height>112</Height>
+      </Item>
+    </TextureList>
+  </Asset>
+</XnaContent>
